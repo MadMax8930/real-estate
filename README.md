@@ -23,6 +23,4 @@ npm run dev
 [Next.js data-fetching](https://nextjs.org/docs/basic-features/data-fetching) for more pre-rendering data strategy information
 
 ### Deployment
-[Project deployed](http://next-real-estate.vercel.app) on Vercel.
-
-
+[Project deployed](https://real-next-estate.vercel.app) on Vercel.
