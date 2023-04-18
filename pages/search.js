@@ -6,6 +6,7 @@ import { BsFilter } from 'react-icons/bs';
 import SearchFilters from '../components/SearchFilters';
 import Property from '../components/Property';
 import noresult from '../assets/images/noresult.png';
+import { fetchApi, baseUrl } from '../utils/fetchApi';
 
 const Search = ({ properties }) => {
   const [searchFilters, setSearchFilters] = useState(false);
@@ -45,7 +46,7 @@ const Search = ({ properties }) => {
 
 export default Search;
 
-export async function getStaticProps({ query }) {
+export async function getServerSideProps({ query }) {
    const purpose = query.purpose || 'for-rent';
    const rentFrequency = query.rentFrequency || 'yearly';
    const minPrice = query.minPrice || '0';
