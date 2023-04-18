@@ -1,42 +1,31 @@
-## [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`]
+### Real Estate [Next.js] Application bootstrapped with [`npx create-next-app@latest ./`]
 
-## Dependencies
+### API: 
+[RapidAPI](https://rapidapi.com/apidojo/api/bayut)
 
-Real Estate Application
+### Dependencies
 
-npx create-next-app@latest ./
+- axios
+- @chakra-ui/react 
+- @emotion/react 
+- @emotion/styled
+- framer-motion 
+- millify 
+- nprogress
+- react-horizontal-scrolling-menu
+- react-icons
 
-npm i :
-axios
-@chakra-ui/react 
-@emotion/react 
-@emotion/styled
-framer-motion 
-millify 
-nprogress
-react-horizontal-scrolling-menu
-react-icons
-
-RapidAPI : fetch Real Estate dta
-
-Framework frontends : chakra ui, material-ui, ant design
-s
-## Run the development server:
+### Development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Frontend Framework: 
+[Chakra-UI](https://chakra-ui.com/getting-started)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Backend Framework:
+[Next.js docs](https://nextjs.org/docs) for more details.
+[Next.js data-fetching](https://nextjs.org/docs/basic-features/data-fetching)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-[Next.js documentation](https://nextjs.org/docs) for more details.
