@@ -1,7 +1,7 @@
 ### Real Estate [Next.js] Application bootstrapped with [`npx create-next-app@latest ./`]
 
 ### API: 
-[RapidAPI](https://rapidapi.com/apidojo/api/bayut)
+[RapidAPI: Bayut](https://rapidapi.com/apidojo/api/bayut)
 
 ### Dependencies
 
@@ -22,10 +22,10 @@ npm run dev
 ```
 
 ### Frontend Framework: 
-[Chakra-UI](https://chakra-ui.com/getting-started)
+[Chakra-UI](https://chakra-ui.com/getting-started) documentation
 
 ### Backend Framework:
-[Next.js docs](https://nextjs.org/docs) for more details.
-[Next.js data-fetching](https://nextjs.org/docs/basic-features/data-fetching)
+[Next.js docs](https://nextjs.org/docs) for more details. <br />
+[Next.js data-fetching](https://nextjs.org/docs/basic-features/data-fetching) 
 
 
