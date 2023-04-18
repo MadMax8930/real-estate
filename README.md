@@ -1,19 +1,13 @@
-### Real Estate [Next.js] Application bootstrapped with [`npx create-next-app@latest ./`]
+### Real Estate application bootstrapped with [`npx create-next-app@latest ./`]
 
 ### API: 
-[RapidAPI: Bayut](https://rapidapi.com/apidojo/api/bayut)
+[RapidAPI](https://rapidapi.com/apidojo/api/bayut) called Bayut
 
 ### Dependencies
 
-- axios
-- @chakra-ui/react 
-- @emotion/react 
-- @emotion/styled
-- framer-motion 
-- millify 
-- nprogress
-- react-horizontal-scrolling-menu
-- react-icons
+```bash
+npm install axios @chakra-ui/react @emotion/react @emotion/styled framer-motion millify nprogress react-horizontal-scrolling-menu react-icons
+```
 
 ### Development server:
 
@@ -25,7 +19,10 @@ npm run dev
 [Chakra-UI](https://chakra-ui.com/getting-started) documentation
 
 ### Backend Framework:
-[Next.js docs](https://nextjs.org/docs) for more details. <br />
-[Next.js data-fetching](https://nextjs.org/docs/basic-features/data-fetching) 
+[Next.js docs](https://nextjs.org/docs) for more details <br />
+[Next.js data-fetching](https://nextjs.org/docs/basic-features/data-fetching) for more pre-rendering data strategy information
+
+### Deployment
+[Project deployed](http://next-real-estate.vercel.app) on Vercel.
 
 
